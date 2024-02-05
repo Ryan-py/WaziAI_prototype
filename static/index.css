@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0px !important;
+    margin: 0px !important;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: large;
+}
+
+p.about_wazi_up {
+    font-size: larger;
+}
+
+#list-group {
+    width: 100%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    @media screen and (min-width: 1080px) {
+        margin-bottom: 6%;
+    }
+}
+
+#input-form {
+    position: fixed;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 8px;
+    z-index: 9999;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e5e7;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding-top: 8px;
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .input-group-append {
+        border: .1em solid gray;
+        height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+
+        button, button:focus, button:focus-visible {
+            appearance: none;
+            outline: none;
+            border: none;
+            background-color: none;
+            width: 100%;
+            height: 100%;
+            font-size: larger;
+        }
+
+        button:hover {
+            color: gray;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    div {
+        width: 768px;
+    }
+
+    #list-group {
+        width: 768px;
+    }
+}
