@@ -51,7 +51,7 @@ Welcome to Wazi AI, your AI companion for learning and innovating with WaziLab. 
 
 ## Configuration
 
-1. Obtain your Google Generative AI API key from [Google Cloud Console](https://console.cloud.google.com/).
+1. Obtain your Google Generative AI API key from [Google Cloud Console]([https://console.cloud.google.com/](https://ai.google.dev/?utm_source=google&utm_medium=cpc&utm_campaign=brand_core_brand&gad_source=1&gclid=CjwKCAiAiP2tBhBXEiwACslfngAxn-QUwOMi3vFIsxbRWJ-hGAJDWscx-xsz5bmsFEyGWgYeqx1WXRoCY2EQAvD_BwE)).
 
 2. Set your API key as an environment variable:
 
