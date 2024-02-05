@@ -1,6 +1,6 @@
 # Wazi AI Chat Application
 
-Welcome to Wazi AI, your AI companion for learning and innovating with WaziLab. This chat application integrates the power of Google's Generative AI (GPT) to provide intelligent responses to your prompts.
+Welcome to Wazi AI, your AI companion for learning and innovating with WaziLab. This chat application integrates LLMs to provide intelligent responses to your prompts.
 
 ## Prerequisites
 
