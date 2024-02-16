@@ -20,7 +20,7 @@ Welcome to Wazi AI, your AI companion for learning and innovating with WaziLab. 
 2. Navigate to the project directory:
 
    ```bash
-   cd wazi-ai
+   cd WaziAI_prototype
    ```
 
 3. Create a virtual environment:
