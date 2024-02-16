@@ -56,7 +56,7 @@ Welcome to Wazi AI, your AI companion for learning and innovating with WaziLab. 
 2. Set your API key as an environment variable:
 
    ```bash
-   export API_KEY=your-api-key
+   export api_key=your-api-key
    ```
 
    Replace `your-api-key` with your actual API key.
